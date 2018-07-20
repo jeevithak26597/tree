@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:left">
+    <p-tree [value]="users" 
+      selectionMode="checkbox"  
+      [style]="{'width': '85%', 'height': '400px'} "
+      (onNodeSelect)="nodeSelect($event)">
+    </p-tree>
+
+    <app-hello></app-hello>
+</div>
